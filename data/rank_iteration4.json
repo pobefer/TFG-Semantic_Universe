@@ -1,0 +1,8 @@
+{
+    "employee@department": {
+        "dept_id@dept_id": 9800
+    },
+    "employee@transaction": {
+        "emp_id@open_emp_id": 9800
+    }
+}

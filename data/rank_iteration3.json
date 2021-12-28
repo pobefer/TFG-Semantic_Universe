@@ -1,0 +1,14 @@
+{
+    "employee@department": {
+        "dept_id@dept_id": 9800
+    },
+    "employee@account": {
+        "emp_id@open_emp_id": 9800
+    },
+    "account@transaction": {
+        "account_id@account_id": 9800
+    },
+    "transaction@account": {
+        "account_id@account_id": 29400
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "account": {
+        "account_id": "account@account_id",
+        "product_cd": "account@product_cd",
+        "cust_id": "account@cust_id",
+        "open_date": "account@open_date",
+        "close_date": "account@close_date",
+        "last_activity_date": "account@last_activity_date",
+        "status": "account@status",
+        "open_branch_id": "account@open_branch_id",
+        "open_emp_id": "account@open_emp_id",
+        "avail_balance": "account@avail_balance",
+        "pending_balance": "account@pending_balance"
+    },
+    "branch": {
+        "branch_id": "branch@branch_id",
+        "name": "branch@name",
+        "address": "branch@address",
+        "city": "branch@city",
+        "state": "branch@state",
+        "zip": "branch@zip"
+    },
+    "business": {
+        "cust_id": "business@cust_id",
+        "name": "business@name",
+        "state_id": "business@state_id",
+        "incorp_date": "business@incorp_date"
+    },
+    "customer": {
+        "cust_id": "customer@cust_id",
+        "fed_id": "customer@fed_id",
+        "cust_type_cd": "customer@cust_type_cd",
+        "address": "customer@address",
+        "city": "customer@city",
+        "state": "customer@state",
+        "postal_code": "customer@postal_code"
+    },
+    "department": {
+        "dept_id": "department@dept_id",
+        "name": "department@name"
+    },
+    "employee": {
+        "emp_id": "employee@emp_id",
+        "fname": "employee@fname",
+        "lname": "employee@lname",
+        "start_date": "employee@start_date",
+        "end_date": "employee@end_date",
+        "superior_emp_id": "employee@superior_emp_id",
+        "dept_id": "employee@dept_id",
+        "title": "employee@title",
+        "assigned_branch_id": "employee@assigned_branch_id"
+    },
+    "individual": {
+        "cust_id": "individual@cust_id",
+        "fname": "individual@fname",
+        "lname": "individual@lname",
+        "birth_date": "individual@birth_date"
+    },
+    "officer": {
+        "officer_id": "officer@officer_id",
+        "cust_id": "officer@cust_id",
+        "fname": "officer@fname",
+        "lname": "officer@lname",
+        "title": "officer@title",
+        "start_date": "officer@start_date",
+        "end_date": "officer@end_date"
+    },
+    "product": {
+        "product_cd": "product@product_cd",
+        "name": "product@name",
+        "product_type_cd": "product@product_type_cd",
+        "date_offered": "product@date_offered",
+        "date_retired": "product@date_retired",
+        "product_type_name": "product_type@product_type_name"
+    },
+    "transaction": {
+        "txn_id": "transaction@txn_id",
+        "txn_date": "transaction@txn_date",
+        "account_id": "transaction@account_id",
+        "txn_type_cd": "transaction@txn_type_cd",
+        "amount": "transaction@amount",
+        "teller_emp_id": "transaction@teller_emp_id",
+        "execution_branch_id": "transaction@execution_branch_id",
+        "funds_avail_date": "transaction@funds_avail_date"
+    }
+}

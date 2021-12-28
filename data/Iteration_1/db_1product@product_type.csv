@@ -1,0 +1,9 @@
+product_cd,name,product_type_cd,date_offered,date_retired,product_type_cd,name
+AUT,auto loan,LOAN,2000-01-01,,LOAN,Individual and Business Loans
+BUS,business line of credit,LOAN,2000-01-01,,LOAN,Individual and Business Loans
+CD,certificate of deposit,ACCOUNT,2000-01-01,,ACCOUNT,Customer Accounts
+CHK,checking account,ACCOUNT,2000-01-01,,ACCOUNT,Customer Accounts
+MM,money market account,ACCOUNT,2000-01-01,,ACCOUNT,Customer Accounts
+MRT,home mortgage,LOAN,2000-01-01,,LOAN,Individual and Business Loans
+SAV,savings account,ACCOUNT,2000-01-01,,ACCOUNT,Customer Accounts
+SBL,small business loan,LOAN,2000-01-01,,LOAN,Individual and Business Loans

@@ -1,0 +1,25 @@
+Buenas tardes,
+
+Queria daros un poco de feedback de como va el proyecto.
+
+Actualmente tengo implementado lo siguiente:
+    Parser de consultas SQL
+    Parser de datamodel de la base de datos en cuestion
+        Esto genera un grafo completo de la base de datos que se utilizara para calcular pesos y "predecir" agrupaciones "semanticas"
+    Calculo de pesos en base al analisis de las queries:
+        Peso de uso -> Peso real de los campos de cada tabla (en realidad es directamente el numero de veces que aparece
+        un campo en un select, pero lo necesitare mas adelante)
+        Peso de join -> Peso heuristico de la relaccion entre 2 tablas.
+            Este peso se obtiene a partir del analisis de las sentencias <WHERE> y se recalcula en funcion de los campos afectados
+    Con estos dos pesos obtenidos para toda la base de datos y un algoritmo hamiltoniano obtengo un valor final que me
+    indica el coste de ejecutar esa serie de consultas contra esa base de datos
+
+
+
+    Este es el momento actual del proyecto.
+
+    Los siguientes pasos a tomar serian:
+        Estudiar un sistema de red neuronal para optimizar este "coste de ejecucion" realizando combinaciones de campos
+        (Esto es, buscar mediante una red neuronal el universo semantico optimo)
+        Estudiar otros sistemas de inteligencia artificial.
+
