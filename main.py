@@ -10,7 +10,7 @@ import util.sql.Mysql_util as ms
 from controlers.generateUniverse import GenUniverse
 
 
-def main():
+def main(deep, database, verbose):
     check = True
     if not os.path.isfile('/home/pobe/PycharmProjects/SemanticUniverse/data/map_queries.json') or check:
         fd = open('/home/pobe/PycharmProjects/SemanticUniverse/data/queries_final.txt', 'r')
@@ -118,7 +118,7 @@ def main():
     with open('/home/pobe/PycharmProjects/SemanticUniverse/data/db_iteration6.json', 'w', encoding='utf-8') as f:
         json.dump(json_nodes, f, ensure_ascii=False, indent=4)
 
-    print("A")
+    print("Job Done!!!")
 
 
 
@@ -147,11 +147,11 @@ def test(filename, id):
     
 
 if __name__ == '__main__':
-    #main()
-    test('data/rank_iteration1.json', "1")
-    test('data/rank_iteration2.json', "2")
-    test('data/rank_iteration3.json', "3")
+    main(None, None, None)
+    # test('data/rank_iteration1.json', "1")
+    # test('data/rank_iteration2.json', "2")
+    # test('data/rank_iteration3.json', "3")
     
     
-    test('data/rank_iteration4.json', "4")
-    test('data/rank_iteration5.json', "5")
+    # test('data/rank_iteration4.json', "4")
+    # test('data/rank_iteration5.json', "5")
