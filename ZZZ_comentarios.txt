@@ -1,0 +1,95 @@
+PLANTILLA FORMATO
+- Acuérdate de adaptarlo en una plantilla más adecuada al tipo de
+proyecto, que puede ser la de investigación, con los
+añadidos/modificaciones que nos parezcan para que quede mejor.
+En particular es importante que la parte de introducción aparezca como
+tal en un capítulo al principio.
+
+ORIGINALIDAD TEXTOS
+- OJO, que no se pueden poner textos sacados de internet, aunque sean de
+definiciones de productos, estado del arte, teoría, etc.
+El contenido tiene que ser original. Puedes citar textos indicando la
+fuente, pero no ponerlos sin cita. Ej: Puedes decir que "según la
+wikipedia [Ref o nota al pie con la fuente], la desnormalización es el
+proceso de ...". Pero no lo puedes poner sin el "según la wikipedia" y
+la referencia. O, el fabricante del producto XXX lo describe como
+"<<descripción>>". Claro que una cita no puede ser muy larga.
+Alternativamente, puedes inspirarte, pero entonces escribiéndolo con tus
+propias palabras.
+Es muy probable que el documento se pase por un detector de
+coincidencias de textos (Turnitin) que tiene la universidad, que te va a
+detectar todos los trozos de tu documento que aparezcan en algún sitio
+de la base de datos de esta herramienta (internet + trabajos
+universitarios + artículos de revistas...).
+Si el nivel de coincidencias detectado es significativo y no son citas
+adecuadas, no te van a dar de paso el trabajo...
+
+ERRATAS, ORTOGRAFÍA, ETC.
+- Hay bastantes, pero creo que es más efectivo repasarlo todo al final.
+
+RESUMEN
+- "Este trabajo de investigación estudia la posibilidad de generar
+universos o capas semánticos en entornos de estructuración de datos
+tabulares."
+Tienes que explicar en un par de párrafos el contexto, que si no no
+se entiende: qué es un entorno de estructuración de datos tabulares y
+qué es un universo semántico.
+El resumen es seguro que se lo leen todos los miembros del tribunal, así
+como el capítulo de introducción. De lo que sale en el resto puede que
+haya partes que no se lean, o se pase por ellas superficialmente. Pero
+resumen e introducción, fijo.
+Así que es muy importante que entiendan bien de qué va el proyecto entre
+  estos dos apartados.
+
+INTRODUCCIÓN
+- En la introducción (aquí está en el PS1.1), para que se entienda bien
+de verdad tienes que poner un ejemplo práctico (puede ser muy simplificado)
+e irlo explicando paso a paso. Si no me parece que los del tribunal no
+van a enterarse de mucho.
+
+ACRÓNIMOS
+- La primera vez que salga un acrónimo hay que indicar lo que significa
+(por ejemplo entre paréntesis) y si es en inglés dar una traducción:
+ej: PBS (Project Breakdown Structure, Estructura del Desglose del Proyecto)
+
+BUSINESS INTELLIGENCE
+- En el estado del arte, la primera vez que se habla de Business
+Intelligence habría que poner un parrafillo explicando qué es el BI.
+
+ESTADO DEL ARTE, HERRAMIENTAS BI
+- Tendrías que poner una sección al final resumiendo las principales
+ventajas de este tipo de herramientas, pero indicando también donde se
+quedan cortas, en particular en lo relativo a tus intereses (de hecho
+por eso se hace el proyecto, no?). Otra alternativa puede ser hacerlo a
+nivel individual de cada una de las herramientas (puntos interesantes
+que tiene vs. limitaciones que hacen que no nos valga para nuestro
+proyecto).
+
+ESTADO DEL ARTE (O TEORÍA) UNIVERSOS SEMÁNTICOS
+- Tienes que poner una sección explicando qué es un universo semántico,
+con un ejemplo. Si no luego aparecen de repente en la obtención de
+salidas y no se sabe qué son.
+
+5NF, RDF...
+- "En esta explicación se ve una similitud con la quinta forma normal
+(5FN)..."
+Aquí habría que poner un ejemplo. Es decir, coger la representación en
+tripleta de un ejemplo, y poner lo mismo en 5FN.
+Ej (creo que sería así, no?):
+RDF: El cielo, tiene el color, azul
+Relacional: Tiene_el_color(sujeto, objeto) y fila ("cielo", "azul")
+
+DENORMALIZACIÓN
+- Ejemplos de técnicas de denormalización. Como es el tipo de "trucos"
+que se van a utilizar para mejorar el rendimiento, es conveniente poner
+un pequeño ejemplo de cada caso para que el del tribunal que lo lea lo
+entienda.
+
+MAPEO CONSULTAS A GRAFOS
+- Poner un ejemplo de consultas y cómo quedaría el grafo que las mapea.
+
+OBTENCIÓN DE SALIDAS
+- Aquí en particular, pero en general, cada vez que expliques algo,
+además de indicar el funcionamiento en general, tienes que ilustrarlo
+con un ejemplo (aunque sea muy simplificado). Si no, la mayoría de las
+cosas o el tribunal está algo familiarizado con ello, o no se entiende...
